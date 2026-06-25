@@ -27,7 +27,7 @@ It downloads official Mojang version metadata and assets directly, supports loca
 ## 🚀 Getting Started
 
 ### Pre‑built Release (recommended)
-1. Go to the [Releases]([https://github.com/CyberLifeYT/ObsidianLauncher/releases](https://github.com/CyberLifeYT/Obsidian-Launcher/releases)) page.
+1. Go to the [Releases](https://github.com/CyberLifeYT/Obsidian-Launcher/releases) page.
 2. Download the latest `ObsidianLauncher.zip`.
 3. Extract and run `ObsidianLauncher.exe`.
 
