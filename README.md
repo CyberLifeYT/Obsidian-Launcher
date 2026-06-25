@@ -3,7 +3,7 @@
 **Obsidian Launcher** is a custom, Minecraft: Java Edition launcher built with WPF (Windows Presentation Foundation).  
 It downloads official Mojang version metadata and assets directly, supports local (offline) accounts, and lets you install **Fabric** and **Forge** mod loaders with a single click.
 
-![Obsidian Launcher Screenshot](screenshots/launcher.png)
+![Obsidian Launcher Screenshot](screenshots/Launcher.png)
 
 ## ✨ Features
 
