@@ -74,21 +74,6 @@ You can also manually check under **Settings → Check for Updates**.
 
 ---
 
-## 🧱 Build from Source
-
-1. Clone the repository:  
-   `git clone https://github.com/CyberLifeYT/Obsidian-Launcher.git`
-2. Open `ObsidianLauncher.sln` in Visual Studio 2019+.
-3. Restore NuGet packages and build the solution in **Release** mode.
-4. The compiled executable will be in `bin\Release\ObsidianLauncher.exe`.
-
-The project targets **.NET Framework 4.8** and uses the following libraries:
-- Newtonsoft.Json
-- Microsoft.Identity.Client (for future online authentication)
-- System.Net.Http
-
----
-
 ## 📃 Changelog
 
 ### v1.1.2 (current)
