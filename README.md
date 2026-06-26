@@ -98,7 +98,7 @@ You can also manually check under **Settings → Check for Updates**.
 ---
 
 ## 📜 License
-MIT – feel free to use, modify, and share.
+MIT – feel free to use, and share.
 
 ---
 
