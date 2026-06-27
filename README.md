@@ -14,14 +14,16 @@ It downloads official Mojang version metadata and assets directly, supports loca
 - 🔹 **Mod Loader Integration**  
   - Install **Fabric** – lightweight, modern modding.  
   - Install **Forge** – the classic, widely‑used mod platform.
-- 🌐 **Built‑in Mod Browser** *(new in v1.1.2)*  
-  Search, browse, and install mods from **CurseForge** and **Modrinth** directly inside the launcher.  
+- 🌐 **Built‑in Mod Browser**  
+  Search, browse, and install mods directly from **Modrinth** inside the launcher.  
   Filter by mod loader, view descriptions and download counts, and manage installed mods.
+- 🖼️ **Screenshots Tab** – View, browse, and full‑screen your in‑game screenshots from the launcher.
 - 🧠 **Smart Java Detection** – Automatically finds Java 17/21 from common paths, system `PATH`, and the Windows registry.
-- 🛠️ **Custom JVM Settings** – Configure memory allocation, additional JVM arguments, and Java executable path.
+- 🛠️ **Custom JVM Settings** – Configure memory allocation, additional JVM arguments, and Java executable path. Settings are saved and restored automatically.
+- 📁 **Quick Access Folder Openers** – Open the game directory, versions, mods, and screenshots folders straight from the Settings tab.
 - 📦 **Download Progress** – Real‑time library and asset download tracking with progress bars.
 - 🚀 **One‑Click Launch** – Select a version, add an account, and hit **PLAY**.
-- 🔄 **Built‑in Updater** – Checks GitHub releases and can update itself with a single click.
+- 🔄 **Built‑in Updater** – Checks GitHub releases and updates itself – even from a zip file.
 
 ---
 
@@ -37,8 +39,8 @@ It downloads official Mojang version metadata and assets directly, supports loca
 
 ### Pre‑built Release (recommended)
 1. Go to the [Releases](https://github.com/CyberLifeYT/Obsidian-Launcher/releases) page.
-2. Download the latest `ObsidianLauncher.exe`.
-3. Run it – no installation needed.
+2. Download the latest `ObsidianLauncher.exe` (or the zip if you prefer).
+3. Run `ObsidianLauncher.exe` – no installation needed.
 
 ### First Launch
 - The launcher will try to auto‑detect a Java installation. If it fails, go to **Settings → Java** and browse to your `javaw.exe` (e.g. `C:\Program Files\Eclipse Adoptium\jdk-21.0.5+11\bin\javaw.exe`).
@@ -65,6 +67,9 @@ This usually means the game crashed instantly. The launcher now shows the exact 
 ### “The calling thread cannot access this object” (v1.1.1+)
 This crash has been **fixed** in v1.1.1 and later. Update to the latest release to solve it.
 
+### Updater says “No direct download found”
+Make sure you are using v1.1.3 or later – it now handles both raw `.exe` and `.zip` releases. If you’re on an older version, update manually.
+
 ---
 
 ## 🔄 Updating
@@ -76,8 +81,17 @@ You can also manually check under **Settings → Check for Updates**.
 
 ## 📃 Changelog
 
-### v1.1.2 (current)
-- **Mod Browser** – search and install mods from CurseForge and Modrinth directly.
+### v1.1.3 (current)
+- **Persistent JVM settings** – memory slider and extra JVM args are now saved automatically.
+- **Refresh version list** – one‑click refresh on the Versions tab without restarting.
+- **Delete downloaded versions** – remove a version and all its files directly from the UI.
+- **Quick Access folder openers** – open game directory, versions, mods, and screenshots folders from Settings.
+- **Auto‑saving Java path** – no need to re‑configure Java after restart.
+- **Screenshots tab** – browse and full‑screen view your in‑game screenshots.
+- **Auto‑updater improvements** – now correctly handles zip releases and extracts the `.exe` automatically.
+
+### v1.1.2
+- **Mod Browser** – search and install mods from Modrinth directly.
 - All ComboBox dropdowns now show black text for better readability.
 - Various UI polish and stability improvements.
 
